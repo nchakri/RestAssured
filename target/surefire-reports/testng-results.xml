@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNgMavenExampleSuite" duration-ms="3966" started-at="2018-06-22T07:34:47Z" finished-at="2018-06-22T07:34:51Z">
+    <groups>
+    </groups>
+    <test name="TestNgMavenTest" duration-ms="3966" started-at="2018-06-22T07:34:47Z" finished-at="2018-06-22T07:34:51Z">
+      <class name="com.javacodegeeks.testng.maven.TestNgMavenExample">
+        <test-method status="PASS" signature="exampleOfTestNgMaven()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenExample@35851384]" name="exampleOfTestNgMaven" duration-ms="0" started-at="2018-06-22T13:04:51Z" finished-at="2018-06-22T13:04:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exampleOfTestNgMaven -->
+      </class> <!-- com.javacodegeeks.testng.maven.TestNgMavenExample -->
+      <class name="com.javacodegeeks.testng.maven.TestNgMavenSecondClass">
+        <test-method status="PASS" signature="oneMoreTest()[pri:0, instance:com.javacodegeeks.testng.maven.TestNgMavenSecondClass@7e0babb1]" name="oneMoreTest" duration-ms="0" started-at="2018-06-22T13:04:51Z" finished-at="2018-06-22T13:04:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneMoreTest -->
+      </class> <!-- com.javacodegeeks.testng.maven.TestNgMavenSecondClass -->
+      <class name="com.javacodegeeks.testng.maven.FindUsingGroovyClosure">
+        <test-method status="PASS" signature="testFindUsingGroovyClosure()[pri:0, instance:com.javacodegeeks.testng.maven.FindUsingGroovyClosure@7cf10a6f]" name="testFindUsingGroovyClosure" duration-ms="408" started-at="2018-06-22T13:04:49Z" finished-at="2018-06-22T13:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindUsingGroovyClosure -->
+      </class> <!-- com.javacodegeeks.testng.maven.FindUsingGroovyClosure -->
+      <class name="com.javacodegeeks.testng.maven.getSingleUser">
+        <test-method status="PASS" signature="GetUser()[pri:0, instance:com.javacodegeeks.testng.maven.getSingleUser@5e025e70]" name="GetUser" duration-ms="59" started-at="2018-06-22T13:04:51Z" finished-at="2018-06-22T13:04:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetUser -->
+      </class> <!-- com.javacodegeeks.testng.maven.getSingleUser -->
+      <class name="com.javacodegeeks.testng.maven.GetData">
+        <test-method status="PASS" signature="testBody()[pri:0, instance:com.javacodegeeks.testng.maven.GetData@66d33a]" name="testBody" duration-ms="784" started-at="2018-06-22T13:04:49Z" finished-at="2018-06-22T13:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBody -->
+        <test-method status="PASS" signature="testResponseCode()[pri:0, instance:com.javacodegeeks.testng.maven.GetData@66d33a]" name="testResponseCode" duration-ms="900" started-at="2018-06-22T13:04:50Z" finished-at="2018-06-22T13:04:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseCode -->
+      </class> <!-- com.javacodegeeks.testng.maven.GetData -->
+      <class name="com.javacodegeeks.testng.maven.getSingleUserGherkin">
+        <test-method status="PASS" signature="testGetSingleUser_Json()[pri:0, instance:com.javacodegeeks.testng.maven.getSingleUserGherkin@1fbc7afb]" name="testGetSingleUser_Json" duration-ms="77" started-at="2018-06-22T13:04:51Z" finished-at="2018-06-22T13:04:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetSingleUser_Json -->
+        <test-method status="PASS" signature="testGetSingleUser_XML()[pri:0, instance:com.javacodegeeks.testng.maven.getSingleUserGherkin@1fbc7afb]" name="testGetSingleUser_XML" duration-ms="68" started-at="2018-06-22T13:04:51Z" finished-at="2018-06-22T13:04:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetSingleUser_XML -->
+      </class> <!-- com.javacodegeeks.testng.maven.getSingleUserGherkin -->
+      <class name="com.javacodegeeks.testng.maven.Authorizartion">
+        <test-method status="PASS" signature="checkAuthentication()[pri:0, instance:com.javacodegeeks.testng.maven.Authorizartion@11531931]" name="checkAuthentication" duration-ms="1643" started-at="2018-06-22T13:04:47Z" finished-at="2018-06-22T13:04:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAuthentication -->
+      </class> <!-- com.javacodegeeks.testng.maven.Authorizartion -->
+    </test> <!-- TestNgMavenTest -->
+  </suite> <!-- TestNgMavenExampleSuite -->
+</testng-results>

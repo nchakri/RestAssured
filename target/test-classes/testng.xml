@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestNgMavenExampleSuite" parallel="false">
+  <test name="TestNgMavenTest">
+    <classes>      
+      <class name="com.javacodegeeks.testng.maven.Authorizartion"/>
+      <class name="com.javacodegeeks.testng.maven.FindUsingGroovyClosure"/>
+      <class name="com.javacodegeeks.testng.maven.GetData"/>
+      <class name="com.javacodegeeks.testng.maven.getSingleUser"/>
+      <class name="com.javacodegeeks.testng.maven.getSingleUserGherkin"/>
+      <class name="com.javacodegeeks.testng.maven.TestNgMavenExample"/>
+      <class name="com.javacodegeeks.testng.maven.TestNgMavenSecondClass"/>
+    </classes>
+  </test>
+</suite>

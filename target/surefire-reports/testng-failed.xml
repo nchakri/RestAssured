@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [TestNgMavenExampleSuite]">
+  <test name="TestNgMavenTest(failed)">
+    <classes>
+      <class name="com.javacodegeeks.testng.maven.getSingleUser">
+        <methods>
+          <include name="GetUser"/>
+        </methods>
+      </class> <!-- com.javacodegeeks.testng.maven.getSingleUser -->
+      <class name="com.javacodegeeks.testng.maven.getSingleUserGherkin">
+        <methods>
+          <include name="testGetSingleUser_Json"/>
+          <include name="testGetSingleUser_XML"/>
+        </methods>
+      </class> <!-- com.javacodegeeks.testng.maven.getSingleUserGherkin -->
+      <class name="com.javacodegeeks.testng.maven.FindUsingGroovyClosure">
+        <methods>
+          <include name="testFindUsingGroovyClosure"/>
+        </methods>
+      </class> <!-- com.javacodegeeks.testng.maven.FindUsingGroovyClosure -->
+    </classes>
+  </test> <!-- TestNgMavenTest(failed) -->
+</suite> <!-- Failed suite [TestNgMavenExampleSuite] -->
